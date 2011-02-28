@@ -3,7 +3,7 @@ package org.juarez.euler;
 public class Problem7 {
 
 	public static long nthPrime(int n) {
-		Primes p = new Primes(n);
+		FirstNPrimes p = new FirstNPrimes(n);
 		long prime = 0;
 		
 		while (p.hasNext()) {

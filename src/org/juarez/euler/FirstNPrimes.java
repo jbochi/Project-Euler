@@ -2,7 +2,7 @@ package org.juarez.euler;
 
 import java.util.*;
 
-public class Primes implements Iterator<Long>{
+public class FirstNPrimes implements Iterator<Long>{
 	long n_elements;
 	ArrayList<Long> known_primes = new ArrayList<Long>(); 
 
@@ -45,7 +45,7 @@ public class Primes implements Iterator<Long>{
 		throw new UnsupportedOperationException();
 	}
 	
-	public Primes(int n) {
+	public FirstNPrimes(int n) {
 		n_elements = n;
 	}
 }

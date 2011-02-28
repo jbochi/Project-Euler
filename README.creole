@@ -1,1 +1,1 @@
-{{http://projecteuler.net/profile/jbochi.png}}
+{{http://projecteuler.net/profile/jbochi.png|jbochi}}
